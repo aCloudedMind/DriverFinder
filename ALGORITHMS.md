@@ -1,0 +1,6 @@
+"# Описание реализации алгоритмов" 
+"## Реализованные алгоритмы:" 
+"- BruteForce" 
+"- KDTree" 
+"- GridPartition" 
+"- PriorityQueue" 
