@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverFinder.Core", "DriverFinder.Core\DriverFinder.Core.csproj", "{D9043790-00BE-402A-B5DE-DBDD8B404474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverFinder.Tests", "DriverFinder.Tests\DriverFinder.Tests.csproj", "{36AB51EB-20FC-4538-99AE-B8C321F4CE81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverFinder.Benchmarks", "DriverFinder.Benchmarks\DriverFinder.Benchmarks.csproj", "{36D8AABC-DFD4-4C63-A243-9E94BA2C8178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9043790-00BE-402A-B5DE-DBDD8B404474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9043790-00BE-402A-B5DE-DBDD8B404474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9043790-00BE-402A-B5DE-DBDD8B404474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9043790-00BE-402A-B5DE-DBDD8B404474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36AB51EB-20FC-4538-99AE-B8C321F4CE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36AB51EB-20FC-4538-99AE-B8C321F4CE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36AB51EB-20FC-4538-99AE-B8C321F4CE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36AB51EB-20FC-4538-99AE-B8C321F4CE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D8AABC-DFD4-4C63-A243-9E94BA2C8178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D8AABC-DFD4-4C63-A243-9E94BA2C8178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D8AABC-DFD4-4C63-A243-9E94BA2C8178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D8AABC-DFD4-4C63-A243-9E94BA2C8178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7EA968F-93AC-4942-ADAF-20ADC8134B92}
+	EndGlobalSection
+EndGlobal
